@@ -1,0 +1,76 @@
+
+.nav-list a {
+    font-size: 0.75rem;
+}
+
+
+.logo-name::before {
+  display: none;
+}
+
+.hero-content{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.hero-content-left{
+    margin-right: 3rem;
+
+}
+
+.hero-content-right {
+     margin-right:0rem;
+}
+
+.vertical-social-media {
+display: none;
+}
+
+.card {
+    transform-style: flat;
+    transform:none;
+}
+
+.card-content {
+ 
+    transition: none;
+    transform-style:flat;
+}
+
+.card:hover .card-content {
+    transform: none;
+
+}
+
+.card-back {
+display: none;
+}
+
+.projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+   
+.about-flex-row{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-order{
+    flex-wrap: wrap-reverse;
+}
+
+.about-flex-image {
+    width: 100%;
+}
+
+.contact-bg-image {
+    top: 47%;
+    left: 50%;
+    width: 65%;
+}
+
+.contact-form-inputs .form-input:valid~.form-label,
+.contact-form-inputs .form-input:focus~.form-label {
+    transform: translateX(-5px)translateY(-18px);
+    padding: 0px 0.5rem;
+}
